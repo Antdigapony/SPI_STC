@@ -1,18 +1,7 @@
 #ifndef	__SPI_H
 #define	__SPI_H
 
-/**************************/
-#include "reg51.h"
-typedef 	unsigned char	u8;
-sfr SPSTAT = 0xCD;
-sfr SPCTL  = 0xCE;
-sfr SPDAT  = 0xCF;
-sfr IE2   = 0xAF;
-sfr AUXR1 = 0xA2;
-
-#define	SPIF	0x80
-#define	WCOL	0x40
-/**************************/
+#include "config.h"
 
 #define	SPI_MODE_Master	1
 #define	SPI_MODE_Slave 	0
