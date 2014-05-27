@@ -3,7 +3,7 @@
 /*Diff: SPI_begin has mode select
 **For master mode, */
 
-#include	"spi.h"
+#include	"SPI.h"
 
 void	SPI_begin(u8 mode)
 {

@@ -1,7 +1,7 @@
 #ifndef	__SPI_H
 #define	__SPI_H
 
-#include "config.h"
+#include	"STC15Fxxxx.H"
 
 #define	SPI_MODE_Master	1
 #define	SPI_MODE_Slave 	0
